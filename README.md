@@ -2,7 +2,7 @@
 
 Personal portfolio website for Muhammad Nafiu Umar, B.Eng Computer Engineering student (Networking Option) at Ahmadu Bello University, Zaria. Built for **COEN 554 — Web Programming**, Question 1.
 
-**Live site:** _add your Vercel URL here once deployed_
+**Live site:** `https://muhammad-nafiu-portfolio.vercel.app/`
 
 ---
 
@@ -41,16 +41,16 @@ portfolio-site/
 
 ## Pages
 
-| Page | Purpose |
-|---|---|
-| Home | Introduction, quick links to every section |
-| About Me | Short bio + personal quote |
-| Educational Background | B.Eng Computer Engineering, ABU Zaria |
-| Technical Skills | Networking, IoT, web development, technical operations |
-| Projects | Smart Waste Detection & Sorting System (TinyML), Subnet & IP Address Calculator (Python) |
-| Hobbies and Interests | Pool, swimming, agribusiness |
-| CV | Professional summary, experience, certifications, strengths |
-| Contact Me | Email, phone, location |
+| Page                   | Purpose                                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------------------- |
+| Home                   | Introduction, quick links to every section                                               |
+| About Me               | Short bio + personal quote                                                               |
+| Educational Background | B.Eng Computer Engineering, ABU Zaria                                                    |
+| Technical Skills       | Networking, IoT, web development, technical operations                                   |
+| Projects               | Smart Waste Detection & Sorting System (TinyML), Subnet & IP Address Calculator (Python) |
+| Hobbies and Interests  | Pool, swimming, agribusiness                                                             |
+| CV                     | Professional summary, experience, certifications, strengths                              |
+| Contact Me             | Email, phone, location                                                                   |
 
 ---
 
@@ -64,7 +64,7 @@ No build step, no server required. Either:
   cd portfolio-site
   python3 -m http.server 8000
   ```
-  then visit `http://localhost:8000`
+  then visit `http://127.0.0.1:5500/`
 
 ---
 
@@ -78,6 +78,7 @@ No build step, no server required. Either:
 6. Click **Deploy**. Vercel returns a live URL within seconds.
 
 Alternative, no GitHub needed:
+
 ```
 npm install -g vercel
 cd portfolio-site
