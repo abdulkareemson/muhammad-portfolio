@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "Smart Waste Detection & Sorting System",
+      "date": "2025",
+      "category": "Embedded Systems / IoT",
+      "description": "A low-cost, real-time system that classifies waste into plastic, metal, and organic categories using an ESP32-CAM and a TinyML model running directly on the microcontroller, then sorts it automatically with servo motors.",
+      "image_url": "assets/images/project-1-waste-detection.jpg"
+    },
+    {
+      "id": "proj-002",
+      "title": "Subnet & IP Address Calculator",
+      "date": "2026",
+      "category": "Networking / Tools",
+      "description": "A local Python desktop tool that instantly breaks down any IP address and CIDR into its network address, broadcast address, subnet mask, and usable host range.",
+      "image_url": "assets/images/project-2-subnet-calculator.jpg"
+    }
+  ]
+}
